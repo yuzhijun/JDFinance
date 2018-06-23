@@ -17,25 +17,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1506/30/7a528fae12c17e6e29d5d13a9d9813ee.water.jpg_200x200_e7f0d0ad.jpg',
-        title: '上海玛雅海滩水公园',
-        desc: '游乐项目惊险刺激，特色表演异彩纷呈'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1607/7c/7cda8b6782dabd80b4.img.jpg_200x200_2039e660.jpg',
-        title: '上海迪士尼乐园',
-        desc: '游乐项目惊险刺激，特色表演异彩纷呈'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1603/17/170481fb9caf500790.water.jpg_200x200_a32b9a92.jpg',
-        title: '上海野生动物园',
-        desc: '游乐项目惊险刺激，特色表演异彩纷呈'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>

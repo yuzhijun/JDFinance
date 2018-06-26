@@ -92,7 +92,7 @@ export default {
       overflow: hidden
       padding: .1rem .6rem .1rem .1rem
       .button-wrapper
-        width: 30%
+        width: 29%
         float: left
         text-align: center
         margin: .1rem
